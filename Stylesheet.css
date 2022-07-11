@@ -1,0 +1,494 @@
+/*Stylesheet for Kalahari Tree */
+
+
+/* To make sothat the nav and cat bar stretches over the whole page*/  
+*{	
+    padding: 0;	
+    margin: 0;
+  }
+  body {
+    font-family:"Arial Narrow";
+  }
+
+  /* Navigation bar basic design */
+  #navigationBar {
+    background:rgb(255, 255, 255);
+    box-shadow:0px 1px 10px 10px rgb(236, 236, 236);
+    height:auto;
+    text-align:right;
+    width:100%;
+  }
+
+  /* To place the Logo on the left side */
+  .nav-left{
+    float:left!important;
+  }
+
+  #navigationBar > ul > li {
+    display:inline;
+  }
+
+  /* Design of the text on the navigation bar */
+  #navigationBar > ul > li > a
+  {
+    color:rgb(0, 0, 0);
+    display:inline-block;
+    height:60px;
+    line-height:60px;
+    margin:0px;
+    padding:0px 15px;
+    text-decoration:none;
+    transition: color 0.3s ease-in;
+  }
+
+  /* Design for when hovering over text in nav bar */
+  #navigationBar > ul > li > a:hover {
+    background-color: rgb(185, 185, 185);
+    color: rgb(0, 153, 255);
+  }
+
+  /* Design for sign up */
+  * {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+
+  /* Design for category bar */
+  #categoryBar {
+    background:rgb(255, 255, 255);
+    box-shadow:0px 1px 10px 10px #ddd;
+    height:auto;
+    text-align:left;
+    width:100%;
+  }
+
+  #categoryBar > ul > li {
+    display:inline;
+  }
+
+  /* Design of the text on the cat bar */
+  #categoryBar > ul > li > a{
+    color:rgb(0, 0, 0);
+    display:inline-block;
+    height:60px;
+    line-height:60px;
+    margin:0px;
+    padding:0px 15px;
+    text-decoration:none;
+    transition: color 0.3s ease-in;
+  }
+
+  /* Design for when hovering over text in cat bar */
+  #categoryBar > ul > li > a:hover {
+    background-color: rgb(185, 185, 185);
+    color: rgb(0, 153, 255);
+  }
+
+  .bodyStyle{
+    /*background-color: dodgerblue;*/
+    font-size: 10px;
+    width:100%;
+    height: fit-content;
+  }
+
+  /* Design of the containers for adds */
+  .addvertiseContainer{
+    background-color: rgba(218, 218, 218, 0.342);
+    color: black;
+    padding: 15px 0px;
+    box-shadow: 3px 3px rgb(192, 192, 192);
+    width: 200px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 400px;
+  }
+
+  .addvertiseContainer:hover{
+    background-color: rgb(0, 153, 255);
+    padding: 15px 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+  }
+
+  .addvertiseDiv {
+    clear: left;
+    margin-left: 25px;
+  }
+
+  .footerDiv {
+    margin-left: 0px;
+  }
+
+  .addPrice{
+    color: rgb(0, 26, 255);
+  }
+
+  .footer{
+    background-color: rgb(0, 153, 255);
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .itemViewPicture{
+    margin-left: 25px;
+  }
+
+  /* ViewAccounts Page */
+
+  #center{
+    margin:30px auto;
+    width:95%;
+   }
+  #center2{
+    margin-top:150px;
+    margin-left:570px;
+   }
+   #signup{
+    float:left;
+    width:50%;
+   }
+   #signup-st,#login-st{
+    background-color:#22313F;
+    margin:50px;
+    border-radius:20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.85);
+   }
+    #signup2{
+    float:left;
+    width:50%;
+   }
+   #signup-st2{
+    background-color:#22313F;
+    margin:15px;
+    margin-top: 10px;   
+    border-radius:20px;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.85);
+    overflow: hidden;
+   }
+   #reg{
+    padding-top:10px;
+   }
+   #reg-head,#reg-bottom,#reg-head-fail{
+    width:100%;
+    text-align:center;
+    background-color:#fff;
+    font-weight:bold;
+   }
+   .headrg{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size:22px;
+    color:#6C7A89;
+   }
+   .btmrg{
+    padding-top:5px;
+    padding-bottom:5px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    font-size:18px;
+    color:#22313F;
+   }
+   #reg-head-fail{
+    color:#D35400;
+   }
+   #reg-head:hover{
+    color:#3498DB;
+    transition:1s;
+   }
+   #tb-name{
+    float:right;
+    font-size:20px;
+   }
+   #tb-box{
+    height:22px;
+    width:200px;
+   }
+   #st{
+    width:100%;
+    text-align:center;
+    padding-top:130px;
+    padding-bottom:5px;
+   }
+   #st1{
+    width:100%;
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:5px;
+   }
+   #st-btn{
+    text-align:center;
+    padding:10px 21px 10px 21px;
+    background-color:#22313F;
+    border:none;
+    color:#C5EFF7;
+    cursor:pointer;
+    font-size:20px;
+   }
+  #st-btn2{
+    text-align:center;
+    padding:5px 10px 1px 10px;
+    background-color:#22313F;
+    border:none;
+    color:#C5EFF7;
+    cursor:pointer;
+    font-size:18px;
+    margin-left: 0px;
+      margin-top: 20px;
+   }
+  #st-btn3{
+    text-align:center;
+    padding:5px 10px 1px 10px;
+    background-color:#22313F;
+    border:none;
+    color:#C5EFF7;
+    cursor:pointer;
+    font-size:18px;
+    margin-left: 0px;
+      margin-top: 7px;
+   }
+    #st-btn4{
+    
+    text-align:center;
+    padding: 5px 10px;
+    background-color:#FDE3A7;
+    color:#22313F;
+    cursor:pointer;
+    font-size:18px;
+    width: 100%;
+    margin-top: 4px;
+   }
+   #st-btn:hover{
+    color:#22313F;
+    background:#C5EFF7;
+    transition:1s;
+   }
+   #st-btn2:hover{
+    color:#22313F;
+    background:#C5EFF7;
+    transition:1s;
+   }
+   #st-btn3:hover{
+    color:#22313F;
+    background:#C5EFF7;
+    transition:1s;
+   }
+   #st-btn4:hover{
+    color:#22313F;
+    background:#C5EFF7;
+    transition:1s;
+   }
+   td.t-1{
+    float:left;
+    width:44%;
+    text-align:right;
+    color:#C5EFF7;
+   }
+   td.t-2{
+    float:right;
+    width:55%;
+   }
+   #lg-1{
+    padding:10px;
+    float:left;
+    width:95%;
+   }
+   .tl-1{
+    float:left;
+    width:40%;
+    padding-right:5%;
+    text-align:center;
+    color:#C5EFF7;
+   }
+   .tl-4{
+    font-size:17px;
+    font-weight:bold;
+    text-align:center;
+    color:#FDE3A7;
+   }
+  
+  #AccountAdContainer{
+      background-color: rgba(218, 218, 218, 0.342);
+      color: black;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      box-shadow: 3px 3px rgb(192, 192, 192);
+      width: 200px;
+      float: left;
+      margin-right: 520px;
+      margin-left: -490px;
+      margin-top: 40px;
+      margin-bottom: 100px;
+      height: 490px;
+    }
+
+    .searchUser{
+      width: 100% !important;
+    }
+
+    #st-btn10{
+      text-align:center;
+      padding:10px 21px 10px 21px;
+      background-color:#22313F;
+      border:none;
+      color:#C5EFF7;
+      cursor:pointer;
+      font-size:20px;
+      margin-top: 10px;
+      margin-left: 155px;
+    }
+
+    #search-st{
+      background-color:#22313F;
+      margin-top: 0px;
+      width: 100%;
+      border-radius:20px;
+      -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.85);
+     }
+
+     #header5{
+      text-align:left;
+      font-size:30px ;
+      color:#FDE3A7;
+  }
+
+  #searhRows{
+    padding:10px;
+   }
+
+   .searchRows2{
+    float:left;
+    padding-right: 40px;
+    text-align:right;
+    color:#C5EFF7;
+    width: 185px;
+   }
+
+   .searchRows3{
+    float:left;
+    padding-right: 40px;
+    text-align:right;
+    color:#C5EFF7;
+    width: 185px;
+   }
+
+   .searchRows4{
+    float:left;
+    padding-right: 40px;
+    text-align:right;
+    color:#C5EFF7;
+    width: auto;
+   }
+   
+   .tableDiv{
+    float:left;
+    margin-left: 50px; 
+    margin-right: 0px; 
+    width: auto;
+   }
+
+   #tableDiv2{
+    float:right;
+    font-size:20px;
+    text-align: right;
+   }
