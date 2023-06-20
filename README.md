@@ -3,7 +3,7 @@ Kalahari-Tree-Website
 
 This website has code for the following included:
 - Viewing ads
-- Session hnadeling
+- Session handeling
 - User management
 - Creating ads(this includes image uploading)
 - Searching or filtering ads
